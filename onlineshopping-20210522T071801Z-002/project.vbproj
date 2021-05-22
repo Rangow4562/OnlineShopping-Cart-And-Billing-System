@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BC55D49-1692-4303-B02C-97019DA6B33F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>project.Form1</StartupObject>
+    <RootNamespace>project</RootNamespace>
+    <AssemblyName>project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABOUT US.Designer.vb">
+      <DependentUpon>ABOUT US.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABOUT US.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryForm.Designer.vb">
+      <DependentUpon>CategoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustForm.Designer.vb">
+      <DependentUpon>CustForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMER AND USER.Designer.vb">
+      <DependentUpon>CUSTOMER AND USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMER AND USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAL.Designer.vb">
+      <DependentUpon>DAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportBillingForm.designer.vb">
+      <DependentUpon>ExportBillingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExportBillingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupForm.Designer.vb">
+      <DependentUpon>GroupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GroupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemForm.Designer.vb">
+      <DependentUpon>ItemForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JUICES.Designer.vb">
+      <DependentUpon>JUICES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JUICES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MILLETS.Designer.vb">
+      <DependentUpon>MILLETS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MILLETS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OILS.Designer.vb">
+      <DependentUpon>OILS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OILS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.vb">
+      <DependentUpon>Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseImportForm.Designer.vb">
+      <DependentUpon>PurchaseImportForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseImportForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReport.Designer.vb">
+      <DependentUpon>PurchaseReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RICE.Designer.vb">
+      <DependentUpon>RICE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RICE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RICE2.Designer.vb">
+      <DependentUpon>RICE2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RICE2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReport.Designer.vb">
+      <DependentUpon>SalesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPICES.Designer.vb">
+      <DependentUpon>SPICES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPICES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockReport.Designer.vb">
+      <DependentUpon>StockReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierForm.Designer.vb">
+      <DependentUpon>SupplierForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEAS.Designer.vb">
+      <DependentUpon>TEAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TEAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABOUT US.resx">
+      <DependentUpon>ABOUT US.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryForm.resx">
+      <DependentUpon>CategoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustForm.resx">
+      <DependentUpon>CustForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER AND USER.resx">
+      <DependentUpon>CUSTOMER AND USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAL.resx">
+      <DependentUpon>DAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportBillingForm.resx">
+      <DependentUpon>ExportBillingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupForm.resx">
+      <DependentUpon>GroupForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemForm.resx">
+      <DependentUpon>ItemForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JUICES.resx">
+      <DependentUpon>JUICES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MILLETS.resx">
+      <DependentUpon>MILLETS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OILS.resx">
+      <DependentUpon>OILS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseImportForm.resx">
+      <DependentUpon>PurchaseImportForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReport.resx">
+      <DependentUpon>PurchaseReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RICE.resx">
+      <DependentUpon>RICE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RICE2.resx">
+      <DependentUpon>RICE2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReport.resx">
+      <DependentUpon>SalesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPICES.resx">
+      <DependentUpon>SPICES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockReport.resx">
+      <DependentUpon>StockReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierForm.resx">
+      <DependentUpon>SupplierForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEAS.resx">
+      <DependentUpon>TEAS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="loginDataSet.xsc">
+      <DependentUpon>loginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="loginDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginDataSet.xss">
+      <DependentUpon>loginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main-2-min-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b03a2b3c6cce53535dd573402695e8df.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\665bceeba064301566bd678718ba36ae.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\665bceeba064301566bd678718ba36ae1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b03a2b3c6cce53535dd573402695e8df1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\665bceeba064301566bd678718ba36ae2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\665bceeba064301566bd678718ba36ae3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6778383-blurry-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f314e6eda496661551ec03592486038.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recover-a-Forgotten-Password-using-old-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49UJmd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\organic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\organic1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\organic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\organic3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-geometric-background-vector-953354.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-geometric-background-vector-9533541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71cc1706f3346843b540f215e7fa5c98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cereals_basmatibrownpolished-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idlyrice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puffed-rice1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redrice-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cereals_rawricebrown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cereals_wheatpremium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-shopping-cart-logo-shopping-bags-trolleys-online-cart-5abdf06e08b926.4055074315223972940357.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dal_uraddalwhitewhole.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dal_turdal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dal_peanut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixed-millets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\little-millets-314x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kodo-millets-314x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musturd-oil1-314x400.jpg" />
+    <None Include="Resources\oils_coldpressesame-314x400.jpg" />
+    <None Include="Resources\groundnut-oil-314x400.jpg" />
+    <None Include="Resources\CARDAMOM-314x400.jpg" />
+    <None Include="Resources\spice_musterdbig-314x400.jpg" />
+    <None Include="Resources\spice_redstickchilly-314x400.jpg" />
+    <None Include="Resources\tulsi-green-tea1-314x400.jpg" />
+    <None Include="Resources\tulsi-ginger-314x400.jpg" />
+    <None Include="Resources\green-tea1-314x400.jpg" />
+    <None Include="Resources\Orange-juice-314x400.jpg" />
+    <None Include="Resources\Mango-314x400.jpg" />
+    <None Include="Resources\Apple-314x400.jpg" />
+    <None Include="Resources\images1.jpg" />
+    <None Include="Resources\organic4.jpg" />
+    <None Include="Resources\images2.jpg" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\1521018917.png" />
+    <None Include="Resources\organic5.jpg" />
+    <None Include="Resources\hex-abstract-material-design-ad.jpg" />
+    <None Include="Resources\932289328-1024x1024.jpg" />
+    <None Include="Resources\936718820-1024x1024.jpg" />
+    <None Include="Resources\material-design-4k.jpg" />
+    <None Include="Resources\organic-or-natural-farming_large.jpg" />
+    <None Include="Resources\96c9b9a0ee170f1093a86e675e55e813f3894e61.png" />
+    <None Include="Resources\taura-natural-ingredients.png" />
+    <None Include="Resources\welcome-transparent-png.png" />
+    <None Include="Resources\welcome-transparent-3.png" />
+    <None Include="Resources\welcome-transparent-31.png" />
+    <None Include="Resources\welcome-transparent-png1.png" />
+    <None Include="Resources\vector-ribbon-5a2a57ffcbb4e1.0151189315127244798344.jpg" />
+    <None Include="Resources\natural-food-vector-badges.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.59040051.jpg" />
+    <None Include="Resources\welcome-transparent-32.png" />
+    <None Include="Resources\welcome-banner-png-2.png" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400511.jpg" />
+    <None Include="Resources\material-design-4k1.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400512.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400513.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400514.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400515.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400516.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400517.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400518.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.590400519.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005110.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005111.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005112.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005113.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005114.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005115.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005116.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005117.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005118.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005119.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005120.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005121.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005122.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005123.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005124.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005125.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005126.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005127.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005128.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005129.jpg" />
+    <None Include="Resources\1499348622595e3e8ef27150.5904005130.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1499348622595e3e8ef27150.5904005131.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-design-4k2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-1009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %281%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-100 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 3-100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 2-100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1-10010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspace-arrow %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,48 @@
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\bin\Debug\project.exe
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\bin\Debug\project.pdb
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\bin\Debug\project.xml
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.Form1.resources
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.Resources.resources
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.vbproj.GenerateResource.Cache
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.exe
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.xml
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.pdb
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.LoginForm1.resources
+C:\Users\Ranjith Gowda\AppData\Local\Temporary Projects\project\obj\x86\Debug\project.MDIParent1.resources
+D:\project\project\project\obj\x86\Debug\project.exe
+D:\project\project\project\obj\x86\Debug\project.xml
+D:\project\project\project\obj\x86\Debug\project.pdb
+D:\project\project\project\obj\x86\Debug\project.Form1.resources
+D:\project\project\project\obj\x86\Debug\project.LoginForm1.resources
+D:\project\project\project\obj\x86\Debug\project.MDIParent1.resources
+D:\project\project\project\obj\x86\Debug\project.Resources.resources
+D:\project\project\project\obj\x86\Debug\project.vbproj.GenerateResource.Cache
+D:\project\project\project\bin\Debug\project.exe.config
+D:\project\project\project\bin\Debug\project.exe
+D:\project\project\project\bin\Debug\project.pdb
+D:\project\project\project\bin\Debug\project.xml
+D:\project\project\project\obj\x86\Debug\project.CustForm.resources
+D:\project\project\project\obj\x86\Debug\project.SupplierForm.resources
+D:\project\project\project\obj\x86\Debug\project.CategoryForm.resources
+D:\project\project\project\obj\x86\Debug\project.GroupForm.resources
+D:\project\project\project\obj\x86\Debug\project.ItemForm.resources
+D:\project\project\project\obj\x86\Debug\project.ExportBillingForm.resources
+D:\project\project\project\obj\x86\Debug\project.PurchaseImportForm.resources
+D:\project\project\project\obj\x86\Debug\project.PurchaseReport.resources
+D:\project\project\project\obj\x86\Debug\project.StockReport.resources
+D:\project\project\project\obj\x86\Debug\project.SalesReport.resources
+D:\project\project\project\obj\x86\Debug\project.Form2.resources
+D:\project\project\project\obj\x86\Debug\project.Form3.resources
+D:\project\project\project\obj\x86\Debug\project.Form4.resources
+D:\project\project\project\obj\x86\Debug\project.Customer.resources
+D:\project\project\project\obj\x86\Debug\project.Product.resources
+D:\project\project\project\obj\x86\Debug\project.RICE.resources
+D:\project\project\project\obj\x86\Debug\project.RICE2.resources
+D:\project\project\project\obj\x86\Debug\project.DAL.resources
+D:\project\project\project\obj\x86\Debug\project.MILLETS.resources
+D:\project\project\project\obj\x86\Debug\project.SPICES.resources
+D:\project\project\project\obj\x86\Debug\project.OILS.resources
+D:\project\project\project\obj\x86\Debug\project.TEAS.resources
+D:\project\project\project\obj\x86\Debug\project.JUICES.resources
+D:\project\project\project\obj\x86\Debug\project.CUSTOMER_AND_USER.resources
+D:\project\project\project\obj\x86\Debug\project.ABOUT_US.resources
